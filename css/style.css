@@ -61,6 +61,7 @@ li{
 .seccion{
     width: 100%;
     padding: 10px;
+     
 
 }
 .seccion__titulo{
@@ -94,7 +95,7 @@ li{
     display: flex;
     color: coral;
     width: 100%;
-    height:300px ;
+    height:350px ;
 }
 
 .imagen__1{
@@ -104,13 +105,12 @@ li{
 
 }
 .imagen__2{
-    padding:10px;
+    
     width: 400px;
     height: 200px;
 
 }
 .imagen__3{
-    padding:10px;
     width:400px;
     height: 200px;
 }
@@ -118,6 +118,7 @@ li{
     text-align: left;
     color:darksalmon ;
     font-style: normal;
+    
     
 
 }
@@ -164,20 +165,23 @@ li{
 /*seccion preguntas*/
 
 .preguntas__frecuentes{
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
-color:lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:lightcoral;
+     
 
 }
 .preguntas__1{
     font-family: 'Arial Narrow Bold', sans-serif;
     text-align: left;
     color: lightcoral;font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
 }
 .preguntas__2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
 .seccion__precio__promo{
     width: 600px;
@@ -215,8 +219,8 @@ color:lightcoral;
 .contacto__1{
     width: 100%;
     height: 40px;
-    display :flex ;
-    flex-direction: column-reverse;
+    display: unset ;
+    flex-direction:initial
     
     
     
@@ -234,7 +238,7 @@ color:lightcoral;
     width: 100%;
     height:20px ;
     
-    background-color: bisque,
+    background-color: bisque;
     
 }
 .footer__derechos{
@@ -246,9 +250,21 @@ color:lightcoral;
 
 }
 
+@media (max-width: 768px){
+    /*estilos css*/
+    body{
+        background-color: tomato;
 
+}
+nav{
+    width:300px;
+}
+}
+/*tablet*/
+@media (min-width:480px) and (max-widt: 1023)
+{
 
-
-
-
-
+     nav{
+         background:sandybrown;
+        }
+}
