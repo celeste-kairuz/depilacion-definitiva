@@ -1,12 +1,14 @@
 /*reseteo*/
- *{   margin:0 ;
+*{   margin:0 ;
     padding:0 ;
 
 }
 @import url('https://fonts.googleapis.com/css2? family = Shadows + Into + Light & display = swap');
 /*index*/
 .encabezado{
-    background-color:bisque;
+    
+background-color: bisque;
+    
 }
 .encabezado__nav{
     text-align: right;
@@ -16,6 +18,8 @@
     flex-wrap:wrap ;
     justify-content:flex-end  ;
     
+    
+    
 }
 .logo{
     padding:5px;
@@ -23,6 +27,7 @@
     width: 200px;
     height: 100px; 
     text-align:left ;
+    
 }
 .encabezado_nav__lista{
 text-align: right;
@@ -31,6 +36,7 @@ padding: 10;
 display: flex;
 flex-wrap:wrap ;
 justify-content:flex-end ;
+
 
 }
 li{
@@ -44,6 +50,10 @@ li{
     color:orangered;
     text-align-last: center;
     padding: 10px;
+    animation-name:efecto;
+    animation-iteration-count: 5;
+    animation-duration: 5s;
+    animation-timing-function: initial;
 }
 #fototitulo{
     width: 1350px; 
@@ -188,10 +198,22 @@ li{
     height: 400px;
 
 }
+/*promo*/
+.seccion__1{
+    width:100% ;
+    height: 60%;
+    
+}
+.carrusel-item{
+    max-height: 50vh;
+}
+.carrusel-item img{
+    max-width: 100%;
+}
 /*aside*/
 
 .contacto{
-    background-color: darksalmon;
+    background-color:bisque;
     width: 100%;
     height:300px ;
     padding: 20px;
@@ -217,10 +239,10 @@ li{
 
 }
 .contacto__1{
-    width: 100%;
-    height: 40px;
-    display: unset ;
-    flex-direction:initial
+    width: 80%;
+    height: 30px;
+    display: unset;
+    flex-direction: row;
     
     
     
@@ -238,7 +260,8 @@ li{
     width: 100%;
     height:20px ;
     
-    background-color: bisque;
+    
+    
     
 }
 .footer__derechos{
@@ -267,4 +290,14 @@ nav{
      nav{
          background:sandybrown;
         }
+}
+@keyframes efecto{
+   from {opacity:0 ;
+    transform: translateX(-200px);
+} 
+to {
+    opacity: 100;transform: translateX(0px);
+
+}
+
 }
