@@ -1,0 +1,30 @@
+{
+  "name": "index.html-nuevo",  
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celeste-kairuz/depilacion-definitiva.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celeste-kairuz/depilacion-definitiva/issues"
+  },
+  "homepage": "https://github.com/celeste-kairuz/depilacion-definitiva#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {},
+  "description": ""
+}
+
+

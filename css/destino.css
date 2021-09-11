@@ -1,0 +1,25 @@
+/*css puro*/
+section h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darksalmon;
+  text-align: center; }
+  section h3 ul {
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcoral; }
+    section h3 ul li {
+      display: inline-table;
+      width: 20px;
+      height: 5px;
+      padding: 10px; }
+
+/*extend*/
+.contacto__1, .contacto__1--nuevo {
+  width: 80%;
+  height: 30px;
+  display: unset;
+  flex-direction: row;
+  padding: 20px; }
+
+.contacto__1--nuevo {
+  padding: 10px; }
