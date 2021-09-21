@@ -23,3 +23,126 @@ section h3 {
 
 .contacto__1--nuevo {
   padding: 10px; }
+
+.encabezado {
+  width: 100%;
+  height: 300px; }
+  .encabezado .logo {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: left; }
+    .encabezado .logo .encabezado__nav {
+      text-align: right;
+      list-style-type: none;
+      padding: 10;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      width: 100%;
+      height: 200px; }
+      .encabezado .logo .encabezado__nav .encabezado_nav__lista {
+        text-align: right;
+        list-style-type: none;
+        padding: 10;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end; }
+        .encabezado .logo .encabezado__nav .encabezado_nav__lista li {
+          display: inline-table;
+          width: 20px;
+          height: 5px;
+          padding: 10px; }
+
+.seccion {
+  width: 100%;
+  padding: 10px; }
+  .seccion .titulo {
+    font-style: oblique;
+    color: orangered;
+    text-align-last: center;
+    padding: 10px;
+    animation-name: efecto;
+    animation-iteration-count: 5;
+    animation-duration: 5s;
+    animation-timing-function: initial; }
+    .seccion .titulo .seccion__subtitulo {
+      font-style: oblique;
+      text-align-last: center;
+      color: indianred;
+      font-size: 30px; }
+      .seccion .titulo .seccion__subtitulo .imagen {
+        background-color: bisque;
+        display: flex;
+        color: coral;
+        width: 100%;
+        height: 350px; }
+        .seccion .titulo .seccion__subtitulo .imagen .imagen__1 {
+          padding: 10px;
+          width: 1200px;
+          height: 200px; }
+          .seccion .titulo .seccion__subtitulo .imagen .imagen__1 .imagen__2 {
+            width: 400px;
+            height: 200px; }
+            .seccion .titulo .seccion__subtitulo .imagen .imagen__1 .imagen__2 .imagen__3 {
+              width: 300px;
+              height: 200px; }
+
+.contacto {
+  background-color: bisque;
+  width: 100%;
+  height: 300px;
+  padding: 20px; }
+  .contacto .contacto__titulo {
+    text-align: left;
+    color: darksalmon;
+    font-style: normal; }
+    .contacto .contacto__titulo .contacto__titulo__texto {
+      text-align: right;
+      color: darksalmon;
+      font-style: normal; }
+
+.footer {
+  width: 100%;
+  height: 20px; }
+  .footer .footer__derechos {
+    text-align: center;
+    padding: 10px;
+    font-size: 100%;
+    width: 100%;
+    height: 10px; }
+
+.preguntas__frecuentes {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: lightcoral; }
+
+.preguntas__1 {
+  font-family: 'Arial Narrow Bold', sans-serif;
+  text-align: left;
+  color: lightcoral;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px; }
+  .preguntas__1 .preguntas__2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px; }
+
+.seccion__1 {
+  width: 100%;
+  height: 20%; }
+  .seccion__1 .carrusel-item {
+    max-height: 10vh; }
+    .seccion__1 .carrusel-item .carrusel-item img {
+      max-width: 80%; }
+
+.seccion__precio {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darksalmon;
+  text-align: center; }
+  .seccion__precio .seccion__precio__lista {
+    font-style: normal;
+    color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
